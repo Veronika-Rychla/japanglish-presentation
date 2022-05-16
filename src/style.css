@@ -2,6 +2,12 @@
 
 * {
   box-sizing: border-box;
+ 
+}
+body{
+  background-image: url(./img/bkg04.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 html {
@@ -21,9 +27,7 @@ header {
   margin-top: 4rem;
 }
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(./img/rocket.svg);
-  background-size: contain;
+.menu__lista {
+  background-color: #2a1b3d;
+  height: 30px;
 }
