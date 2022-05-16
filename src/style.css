@@ -2,24 +2,68 @@
 
 * {
   box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
  
+}
+.header {
+  background-image:url(./img/japnglish.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: end;
+  background-size: cover;
+  height: 400px;
 }
 body{
   background-image: url(./img/bkg04.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 html {
   font-family: 'Open Sans', sans-serif;
 }
 
+h2, h3, h1 {
+  font-family: 'Bangers', cursive;
+}
+
+p{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header__text {
+color: aliceblue;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#text__h1 {
+  font-size: 4rem;
+    text-shadow: 0 3px 10px rgb(0 0 0 / 70%);
+}
+#text__h4 {
+  font-size: 1rem;
+}
 .container {
   max-width: 26rem;
   margin-right: auto;
   margin-left: auto;
 }
-
+.view {
+background-color: black;
+margin: 20px;
+ width: 400px;
+ height:300px;
+}
 header {
   display: flex;
   flex-direction: column;
@@ -30,4 +74,20 @@ header {
 .menu__lista {
   background-color: #2a1b3d;
   height: 30px;
+}
+.bubble {
+  margin: 5%;
+  border: 10px solid #2a1b3d;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #c009585e;
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.telo {
+  display: flex;
+  flex-direction: column;
 }
