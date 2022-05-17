@@ -63,6 +63,10 @@ align-items: center;
 #text__h4 {
   font-size: 1rem;
 }
+
+.srdce {
+  background-image: url(./img/HeartBar/HeartStage1.png);
+}
 .container {
   max-width: 26rem;
   margin-right: auto;
@@ -83,7 +87,9 @@ header {
 
 .menu__lista {
   background-color: #2a1b3d;
-  height: 30px;
+  height: 60px;
+  display: flex;
+  align-content: space-between;
 }
 .bubble {
   padding: 5%;
@@ -109,7 +115,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  align-items: center;
+  align-items: stretch;
   flex-direction: column;
   text-align: center;
   height: 300px;
@@ -123,6 +129,13 @@ header {
   text-align: center;
 
   padding: 5%;
+}
+
+#btn {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 /*
 .btn {
