@@ -126,6 +126,7 @@ body {
   background-position: center;
   background-size: contain;
   animation: taadaa 5s infinite;
+  animation-direction:alternate;
   position: absolute;
 }
 
@@ -265,13 +266,24 @@ button.big-button:active::before {
   box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
 }
 
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .respo__tablet { 
+      display: flex;
+      flex-direction: row; }
 /*
-/ Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
+    .what {
+max-width: 47%;
+    }
+    .why {
+    max-width: 47%;}
+*/
+  
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
+  }
+ 
+/*
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
 
