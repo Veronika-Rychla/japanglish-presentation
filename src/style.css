@@ -285,7 +285,7 @@ button.big-button:active::before {
 
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 320px)  {
+@media (min-width: 320px) {
   .respo__tablet { 
     display: flex;
     flex-direction: column; }
