@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/*
 body {
   display: flex;
   align-items: center;
@@ -9,11 +10,12 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
-}
+} */
 
 .container {
   display: flex;
-  width: 90vw;
+  width: 100%;
+  max-width: 100%;
 }
 
 .panel {

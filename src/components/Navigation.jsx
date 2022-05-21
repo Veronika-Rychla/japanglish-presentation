@@ -7,9 +7,6 @@ export const Navigation = () => {
       <section>
         <nav className="navbar navbar-expand-lg bg-light" id="navigace">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
-              Navbar
-            </a>
             <button
               className="navbar-toggler"
               type="button"
