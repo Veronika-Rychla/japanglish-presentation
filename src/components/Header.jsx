@@ -2,8 +2,8 @@ import React from 'react';
 
 export const Header = () => {
   return (
-    <section class="header">
-      <div class="header__text">
+    <section className="header">
+      <div className="header__text">
         <div id="text__h1">
           <h1>Japanglish</h1>
         </div>

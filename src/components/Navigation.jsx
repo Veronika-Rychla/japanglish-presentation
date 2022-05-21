@@ -1,16 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Navigation = () => {
   return (
-    <section class="telo">
+    <section className="telo">
       <section>
-        <nav class="navbar navbar-expand-lg bg-light" id="navigace">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+        <nav className="navbar navbar-expand-lg bg-light" id="navigace">
+          <div className="container-fluid">
+            <a className="navbar-brand" href="#">
               Navbar
             </a>
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavAltMarkup"
@@ -18,20 +19,28 @@ export const Navigation = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">
+            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div className="navbar-nav">
+                <Link to="/" className="nav-link active" aria-current="page">
                   Home
-                </a>
-                <a class="nav-link" href="#">
-                  Features
-                </a>
-                <a class="nav-link" href="#">
-                  Pricing
-                </a>
-                <a class="nav-link disabled">Disabled</a>
+                </Link>
+                <Link to="graphicnovel" className="nav-link">
+                  Graphic novel
+                </Link>
+                <Link to="japanglish" className="nav-link">
+                  Japanglish
+                </Link>
+                <Link to="ourgame" className="nav-link">
+                  Our game
+                </Link>
+                <Link to="gallery" className="nav-link">
+                  Gallery
+                </Link>
+                <Link to="ourteam" className="nav-link">
+                  Our team
+                </Link>
               </div>
             </div>
           </div>
