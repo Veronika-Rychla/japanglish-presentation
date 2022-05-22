@@ -13,6 +13,7 @@ export const OurTeam = () => {
         <h3>Barbora Ševčíková</h3>
         <p>UX/UI design</p>
         <p>HTML and CSS</p>
+        <div className="niki"></div>
         <h3>Nikol Schirová</h3>
         <p>character art style</p>
       </div>

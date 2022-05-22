@@ -302,6 +302,16 @@ button.big-button:active::before {
 .veronika {
   background-image: url(./img/team/veronika.jpg);
   width: 300px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+
+.niki {
+  background-image: url(./img/team/niki.jpg);
+  width: 300px;
+  height: 400px;
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;

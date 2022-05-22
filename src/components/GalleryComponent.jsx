@@ -9,7 +9,7 @@ export const GalleryComponent = ({ panels }) => {
       [firstKey]: { imageUrl: panels[firstKey].imageUrl, isActive: true },
     });
   }, []);
-
+ 
   return (
     <div className="container">
       {Object.keys(panels).map((index) => (
