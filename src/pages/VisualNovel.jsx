@@ -6,7 +6,7 @@ export const VisualNovel = () => {
       <div className="canva bubble" id="canva">
         <h2>What is a visual novel?</h2>
         <p>
-          According to Wikipedia, a visual novel is a form of digital
+          <strong>According to Wikipedia</strong>, a visual novel is a form of digital
           semi-interactive fiction. It combines elements of classical
           storytelling with animated illustrations, music background, dialogues
           either dubbed by professional voice actors or silent and…
@@ -16,7 +16,7 @@ export const VisualNovel = () => {
           many visual novels that will let you chill.
         </p>
         <p>
-          Have you ever wanted to become a protagonist of a book you're reading?
+          <strong>Have you ever wanted to become a protagonist of a book you're reading?</strong>
           Talk to characters yourself? Decide how to answer them? Well, add some
           lovely pictures and that's basically what a visual novel is all about.
           Of course, there are many amazing games that have been doing it for
@@ -25,18 +25,18 @@ export const VisualNovel = () => {
           normal novel because it relies only on dialogues to convey its story.
         </p>
         <p>
-          Since visual novels originated in Japan where they are hugely popular,
+          Since <strong>visual novels originated in Japan where they are hugely popular</strong>,
           it's no wonder that their art style in most cases resembles an anime.
           It's a pity that outside Japan, visual novels remain marginalised and
           mostly ignored by gamers. The reason why Western gamers treat Japanese
           visual novels as “some weird stuff from Asia” and often confuse them
-          with hentai (anime and manga porn) is because, admittedly, a lot of
+          with hentai <em>(anime and manga porn)</em> is because, admittedly, a lot of
           visual novels feature erotica so people tend to omit all those amazing
           visual novels which don't.
         </p>
         <p>
-          Why do people enjoy visual novels when there're games much more
-          sophisticated? Maybe it's the art style, maybe it's the absence of
+          <strong>Why do people enjoy visual novels when there're games much more
+          sophisticated?</strong> Maybe it's the art style, maybe it's the absence of
           fighting which makes visual games more relaxing and casual. Maybe it's
           that feeling that you have to consciously develop your relationships
           with characters in order to win them over. Whatever the reason, visual

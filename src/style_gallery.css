@@ -71,9 +71,9 @@ body {
   .container {
     width: 100vw;
   }
-
+/*
   .panel:nth-of-type(3),
   .panel:nth-of-type(5) {
     display: none;
-  }
+  }*/
 }

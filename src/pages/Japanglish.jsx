@@ -6,8 +6,8 @@ export const Japanglish = () => {
       <div className="canva bubble" id="canva">
         <h2>What is Japanglish?</h2>
         <p>
-          Just as any other language, Japanese contains many words that were
-          borrowed from foreign languages, especially English. As these words
+          Just as any other language, <strong>Japanese contains many words that were
+          borrowed from foreign languages</strong>, especially English. As these words
           became assimilated into Japanese over time, their original
           pronunciation shifted so much that they are almost unrecognisable to
           native English speakers. There're several factors that contributed to
@@ -15,25 +15,25 @@ export const Japanglish = () => {
         </p>
         <p>
           Firstly, Japanese is a syllabic language so Japanese people struggle
-          with pronouncing consonant clusters. Japanese language also has a
+          with pronouncing consonant clusters. <strong>Japanese language also has a
           specific pronunciation of the letter L which is non-existent in
-          Japanese phonemic alphabet so imported words with L end up being
+          Japanese phonemic alphabet</strong> so imported words with L end up being
           re-written with R and pronounced with soft R instead of the original
-          L. Secondly, despite having English as a compulsory school subject,
+          L.  <em> (small joke: What do Japanese men do when they vote? – They have an erection) </em> Secondly, despite having English as a compulsory school subject,
           Japanese speakers tend to score lowly on international language tests
           because it's mainly taught only as grammar and not as a language of
           real communication.
         </p>
         <p>
-          While it's considered cool to insert English words into one's
-          utterance, their pronunciation always stays Japanese. That's because
+          While <strong>it's considered cool to insert English words into one's
+          utterance</strong>, their pronunciation always stays Japanese. That's because
           these borrowed words are being taught using the katakana alphabet
           that's tailored to Japanese language even though it's meant for
           re-writing foreign words. Thus, the original pronunciation is never
           learnt by young pupils.
         </p>
         <p>
-          If you want to get acquainted with Japanglish in a fun way, watch
+          <strong>If you want to get acquainted with Japanglish in a fun way,</strong> watch
           episodes 7-9 (season 17) of South Park to get a very good gist. You
           can also watch a very accurate song parody if you click the big button
           below. Or even better—play our game!
