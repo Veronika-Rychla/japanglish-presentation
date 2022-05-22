@@ -10,7 +10,7 @@ import { Japanglish } from './pages/Japanglish';
 import { OurGame } from './pages/OurGame';
 import { OurTeam } from './pages/OurTeam';
 import { Gallery } from './pages/Gallery';
-import { GraphicNovel } from './pages/GraphicNovel';
+import { VisualNovel } from './pages/VisualNovel';
 import { Home } from './pages/Home';
 
 const App = () => (
@@ -28,7 +28,7 @@ createRoot(document.querySelector('#app')).render(
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="" element={<Home />} />
-        <Route path="graphicnovel" element={<GraphicNovel />} />
+        <Route path="visualnovel" element={<VisualNovel />} />
         <Route path="japanglish" element={<Japanglish />} />
         <Route path="ourgame" element={<OurGame />} />
         <Route path="gallery" element={<Gallery />} />

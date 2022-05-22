@@ -23,8 +23,8 @@ export const Navigation = () => {
                 <Link to="/" className="nav-link active" aria-current="page">
                   Home
                 </Link>
-                <Link to="graphicnovel" className="nav-link">
-                  Graphic novel
+                <Link to="visualnovel" className="nav-link">
+                  Visual novel
                 </Link>
                 <Link to="japanglish" className="nav-link">
                   Japanglish

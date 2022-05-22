@@ -47,6 +47,7 @@ p {
   font-size: 20px;
   padding: 2%;
 }
+
 footer {
   text-align: center;
   background-color: #2a1b3d;
@@ -296,6 +297,14 @@ button.big-button:active::before {
     display: flex;
     flex-direction: row;
   }
+}
+
+.veronika {
+  background-image: url(./img/team/veronika.jpg);
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
 }
 
 /*
